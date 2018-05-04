@@ -1,0 +1,125 @@
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+}
+.fixed-content {
+    margin-left:10%;
+    height:90%;
+	width:80%;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+	border:3px solid black;
+} 
+.career-head, .edu-head, .personal-head{
+	width:100%;
+	background: url('../images/color.png') repeat-x !important;
+	border-bottom:2px solid black;
+	padding:1px 5px;
+	font-size:17px;
+	text-transform:uppercase;
+}
+.career-head1, .edu-head1, .personal-head1{
+	width:100%;
+	background: url('../images/color.png') repeat-x !important;
+	text-align:center;
+	padding:1px 5px;
+	font-size:17px;
+	font-weight:bold;
+}
+.career-body{
+	margin: 10px 15px 27px;	
+}
+.img-div{
+	 float:right;
+	 margin:0 16% ;
+}
+.table-head{
+	background-color:#b3b3b3;
+}
+.table>thead>tr>th {
+    vertical-align: top;
+}
+.industrial{
+	margin-bottom:18px;
+}
+.industrial-head, .project-main-head{
+	margin:10px  35%;
+	text-align:center;
+	background: url('../images/color.png') repeat-x !important;
+	font-size:17px;
+	font-weight:bold;
+}
+.industrial-training-head{
+	font-size:17px;
+	text-decoration:underline;
+	margin:10px 15px;
+}
+.industrial-training-body{
+	margin:0 25px;
+}
+.project{
+	border-top:1px solid black;
+}
+.project-head{
+	font-size:17px;
+	text-decoration:underline;
+	margin-left:25px;
+	float:left;
+	width:auto;
+}
+.project-body{
+	margin:10px 15px;
+	float:left;
+	width:auto;
+}
+.box{
+	border:1px solid black;
+	margin:10px 0;
+}
+.mypanel-head1, .mypanel-head, .cocurricular-head{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.mypanel-head1{
+	border-bottom:1px solid black;
+	padding:5px 5px;
+	font-size:16px;
+}
+.mypanel-head{
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+	padding:5px 5px;
+	font-size:16px;
+}
+.mypanel-body{
+	margin:10px 15px 21px;
+}
+.personal-body{
+	margin:2% 6%;
+}
+.cocurricular-head{
+	margin-left:12px;
+	float:left;
+	width:auto;
+}
+.cocurricular-body{
+		padding:auto;
+	float:left;
+	width:auto;
+}
+tr,td {
+    padding: 3px 9px !important;   
+}
+.sign{
+	margin:15px 10% 0 0;
+	font-size:16px;
+	float:right;
+}
+.sign-table>tbody>tr>td{
+	border-top:0px;
+}
+.declaration{
+	display:block;
+	width:100% !important;
+}

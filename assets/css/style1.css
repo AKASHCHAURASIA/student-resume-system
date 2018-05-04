@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**************Reset Style*****************/
+
+
+* {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+body {
+	padding:0;
+	color:#666;
+	background:#fff;
+	font-size: 13px;
+}
+p {
+	font-size: 13px;
+	line-height: 23px;
+	padding: 3px 0 3px;
+}
+a {
+	text-decoration:none;
+	color:#0084C7;
+	font-weight:400;
+}
+a:hover {
+	text-decoration:underline;
+	color:#0084C7;
+}
+
+
+/***********PROMO STYLE*************/
+
+#header {
+	margin-top:50px;
+	text-align:center;	
+}
+
+#header h1 {
+	font-size:24px;
+	color:#0881f2;
+}
+
+#header h2 {
+	font-size:16px;
+	color:#333;
+}
+
+
+
+
+
+/**************Showcase Style Starts*****************/
+
+#container {
+	margin:50px auto;
+	width:1000px;
+}
+
+.showcase {
+	list-style: none;
+	padding: 0 0 40px 40px;
+	height: 300px;
+    margin: 0 auto;
+}
+.showcase li {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+    margin-left: 100px;
+	padding: 10px 10px 0 0;
+}
+.showcase a {
+	display: block;
+	width: 285px;
+	height: 244px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+}
+.showcase a img {
+	width: 500px;
+	height: 374px;
+	margin: 0 auto;
+	position: absolute;
+	left: -104px;
+	top: -40px;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.showcase a:hover img {
+	width: 285px;
+	height: 213px;
+	left: 0;
+	top: -10px;
+}
+.showcase a p {
+	background: #972217;
+	color: #fff;
+	font-size: 11px;
+	padding: 12px 20px;
+	position:absolute;
+	bottom:-100px;
+	line-height: 20px;
+	display: block;
+	width: 245px;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.showcase a:hover p {
+	bottom: 0;
+	background: #972217;
+}
+.showcase a h3 {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #972217;
+	width: 211px;
+	padding: 8px 10px;
+	position: absolute;
+	left:10px;
+	bottom:10px;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.showcase a:hover h3 {
+	bottom:94px;
+	background: #972217;
+}
+.showcase a h3 i {
+	width: 33px;
+	height: 26px;
+	position: absolute;
+	right: -34px;
+	top: 0;
+	background: #972217;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	font-size:18px;
+	font-weight:normal;
+	text-align:center;
+	padding:6px 0 0 0;
+}
+.showcase .thumb2 a p, .showcase .thumb2 a h3 {
+	background: #972217;
+}
+.showcase .thumb2 a:hover p, .showcase .thumb2 a:hover h3 {
+	background: #972217;
+}
+.showcase .thumb2 a h3 i {
+	background: #972217;
+}
+.showcase .thumb2 a:hover h3 i {
+	background: #972217;
+}
+
+.logout{
+    background-color: #972217;
+    height: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    height: 59px;
+    width: 100px;
+}
+
+.stop{
+    background-color: #972217;
+    height: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    height: 59px;
+    width: 150px;
+    position: relative;
+    left: 50px;
+    margin-top: 5px;
+}
+
+.logout:hover{
+    color: black;
+}

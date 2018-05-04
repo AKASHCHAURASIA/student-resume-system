@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery savy.js: Auto Form Save Plugin Demo</title>
+
+<style>
+body { background-color:#f7f7f7;}
+.container { margin:150px auto;}
+</style>
+</head>
+
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+
+</ul>
+
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div class="container">
+<h1>jQuery savy.js: Auto Form Save Plugin Demo</h1>
+<form>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="auto-save form-control" id="email" spellcheck="false">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="auto-save form-control" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Review:</label>
+    <textarea rows="3" class=" auto-save form-control" id="review"  spellcheck="false"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-danger destroy">Destroy The Plugin</button>
+</form>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="savy.js"></script>
+<script>
+$('.auto-save').savy('load');
+
+</script>
+
+</body>
+</html>

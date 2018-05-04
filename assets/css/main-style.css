@@ -1,0 +1,257 @@
+
+/*====================================
+ Free To Use For Personal And Commercial Usage
+Author: http://binarytheme.com
+ Share Us if You Like our work 
+ Enjoy Our Codes For Free always.
+======================================*/
+
+/* user image section */
+.user-section {
+    margin-top:0px;
+    font-size:22px;
+    background-color: white;
+}
+.user-section-inner {
+    height: 150px;
+width: 150px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+overflow: hidden;
+display: inline-block;
+float: left;
+margin-right: 15px;
+margin-top: 20px;
+}
+    .user-section-inner img {
+        margin-left:10px;
+        width:55px;
+        height:60px;
+        
+    }
+.user-info {
+    display: block;
+    color:white!important;
+display: inline-block;
+padding: 15px;
+margin-bottom: 0px
+}
+.user-text-online {
+    font-size:18px;
+    color:#fff
+}
+.user-circle-online {
+    width: 15px!important;
+    height: 15px!important;
+}
+
+/* side-menu section */
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color:rgba(74, 72, 126, 0);
+}
+.navbar-top-links  .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #5987B2;
+}
+.navbar-top-links > li > a {
+color: black;
+}
+.nav > li > a {
+padding: 20px 15px;
+}
+#side-menu {
+    background-color: #5987b2;
+}
+
+ #side-menu a {
+            color:#fff;
+          
+           height: 55px;
+        }
+        .selected {
+            background-color: #972217;
+        }
+.navbar-static-side ul .selected{
+    border-left: 4px solid #f2effc !important;
+}
+/* back colors */
+        .blue {
+            background-color:rgb(113, 159, 241);
+        }
+         .green {
+            background-color:rgb(144, 236, 192);
+        }
+          .red {
+            background-color:rgb(255, 102, 133);
+        }
+        .yellow {
+            background-color:rgb(237, 253, 46);
+        }
+
+  /* No border */
+.no-boder {
+    border: 0px solid #5987B2 !important;
+}
+/* tap nvbar Section */
+
+#navbar {
+    background-color: #5987B2;
+    opacity: .8;
+}
+
+.navbar-brand {
+    padding-left:20px;
+}
+.navbar-brand img {
+    height:30px;
+}
+.top-label {
+    position: absolute;
+top: 50%;
+right: 50%;
+margin-top: -24px;
+margin-right: -24px;
+}
+
+/*large font*/
+.large-font {
+    font-size:18px;
+}
+
+.body-Login-back {
+    background-color:#5987B2;
+}
+
+.margin-tips {
+    margin:5px;
+}
+.navbar-default {
+border-color: #5987B2;
+}
+/*media queries*/
+
+@media(min-width:768px) 
+{
+    #page-wrapper {
+        position: relative;
+        margin: 0 0 0px 250px;
+        margin-bottom: -50px;
+        min-height: 950px;
+        }   
+    .showcase li{
+        position: relative;
+        margin-left: 0px;
+        float: left;
+        margin-left: -75px;
+        padding-right: 5px;
+    }
+}
+
+@media(max-width: 767.5px) {
+    .logout{
+        display: none;
+    }
+    .header{
+        display: none !important;
+    }
+    .logout-responsive{
+        display: block !important;
+    }
+    .showcase li{
+        position: relative;
+        margin-left: 0px;
+        float: left;
+        margin-left: -75px;
+        margin-right: 80px;
+    }
+    #page-wrapper{
+        min-height: 550px !important;
+    }
+}
+
+@media(max-width: 600px) {
+    .logout{
+        display: none;
+    }
+    .header{
+        display: none !important;
+    }
+    .logout-responsive{
+        display: block !important;
+    }
+    .showcase li{
+        position: relative;
+        float: none !important;
+        margin-left: 20px !important;
+        margin-left: -75px;
+        margin-right: 80px;
+    }
+    #page-wrapper{
+        min-height: 550px !important;
+    }
+}
+
+@media(max-width: 450px) {
+    .logout{
+        display: none;
+    }
+    .header{
+        display: none !important;
+    }
+    .logout-responsive{
+        display: block !important;
+    }
+    .showcase li{
+        position: relative;
+        float: none !important;
+        margin-left: 5px !important;
+        margin-left: -75px !important;
+        margin-right: 80px;
+    }
+}
+
+@media(max-width: 400px) {
+    .logout{
+        display: none;
+    }
+    .header{
+        display: none !important;
+    }
+    .logout-responsive{
+        display: block !important;
+    }
+    .showcase li{
+        position: relative;
+        float: none !important;
+        margin-left: -20px !important;
+        margin-left: -75px !important;
+        margin-right: 80px;
+    }
+}
+
+
+@media(max-width:768px) {
+#wrapper {
+    position: absolute !important;
+    top: 0px !important;
+    bottom: 0px !important;
+}
+}
+@media(max-width:900px) {
+#page-wrapper {
+    min-height: 650px;
+    }
+}
+.header{
+    display: block;
+    height: 60px;
+    width: 120%;
+    border: 1px solid black;
+    margin: 0px 40px 0px -40px;
+    background-color: #333333;
+}
+
+body{
+    overflow-x: hidden;
+}
+
